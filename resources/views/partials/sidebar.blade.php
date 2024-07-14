@@ -1,6 +1,6 @@
-<div class="w-64 min-w-64 shadow-sm">
-    <div class="flex flex-col gap-2 items-start justify-center w-full h-full">
-        <h1 class="text-2xl font-sans p-4 px-8">Logo</h1>
+<div class="w-64 min-w-64 shadow-sm bg-white">
+    <div class="flex flex-col gap-2 items-start justify-center w-full h-fit">
+        <h1 class="text-2xl font-sans p-6 px-8">Logo</h1>
         <a
             href="{{ route('dashboard') }}"
             class="text-base p-4 px-8 w-full text-yellow-950 font-medium relative"
@@ -55,7 +55,7 @@
                 class="after:content-[''] after:hidden after:absolute after:w-1 after:h-3/4 after:bg-yellow-300 after:top-1/2 after:translate-y-[-50%] after:right-0"
             ></span
         ></a>
-        <div class="bg-slate-50 rounded-md p-3 pt-12 w-10/12 mx-auto mt-auto mb-6 flex flex-col justify-center items-center relative">
+        <div class="bg-slate-50 rounded-md p-3 pt-12 w-10/12 mx-auto mt-12 mb-6 flex flex-col justify-center items-center relative">
             <img src="{{ asset('img/premium.png') }}" class="w-9/12 absolute top-[-37%] left-1/2 translate-x-[-50%]">
             <p class="text-sm font-normal text-slate-500 text-center mb-4">Odblokuj zaawansowane narzędzia i monitoruj swoje inwestycje lepiej!</p>
             <a href="#" class="bg-white text-sm text-black rounded-md p-2 font-semibold block w-fit border-gray-200 border-2">Odblokuj premium</a>
